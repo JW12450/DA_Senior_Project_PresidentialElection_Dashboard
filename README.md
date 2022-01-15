@@ -1,1 +1,1 @@
-# DA_Senior_Project_PresidenttialElection_Dashboard
+# DA_Senior_Project_PresidentialElection_Dashboard
