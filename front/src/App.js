@@ -6,16 +6,20 @@ import Ahn from "./components/Ahn";
 import Yoon from "./components/Yoon";
 import Can_Button from './components/Can_button';
 import HomeButton from './components/HomeButton';
+import { Route, Routes } from 'react-router-dom';
 
 
 function App() {
-  const can_list = ['이재명', '윤석열', '안철수']
-  const can_enlist = ['Lee', "Yoon", "Ahn"]
 
   return (
     <div className="App">
-      <Can_Button name={can_list[0]}></Can_Button>
-      <HomeButton></HomeButton>
+      <Routes>
+      <Route path="/" element={<Home/>}/>
+      <Route path="/total" element={<Total/>}/>
+      <Route path="/lee" element={<Lee/>}/>
+      <Route path="/yoon" element={<Yoon/>}/>
+      <Route path="/ahn" element={<Ahn/>}/>
+      </Routes>
     </div>
   );
 }
