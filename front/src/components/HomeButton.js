@@ -1,10 +1,11 @@
 import React from 'react';
+import {Link} from "react-router-dom";
 
-function HomeButton(props){
+function HomeButton(){
     return (
-        <button type='button' onclick="location.href='/'">
-            홈으로 돌아가기
-        </button>
+        <Link to="../">
+        <button>홈으로 돌아가기</button>
+        </Link>
     );
 }
 
