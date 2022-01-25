@@ -4,8 +4,6 @@ import Total from "./components/Total";
 import Lee from "./components/Lee";
 import Ahn from "./components/Ahn";
 import Yoon from "./components/Yoon";
-import Can_Button from './components/Can_button';
-import HomeButton from './components/HomeButton';
 import { Route, Routes } from 'react-router-dom';
 
 
