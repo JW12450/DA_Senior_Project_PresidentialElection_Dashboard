@@ -1,6 +1,7 @@
 import React from 'react';
 import CanButton from "./Can_button";
 import HomeButton from "./HomeButton";
+//import Pye1 from "../pyechart/Pye1.html";
 
 function Total(){
     return (
