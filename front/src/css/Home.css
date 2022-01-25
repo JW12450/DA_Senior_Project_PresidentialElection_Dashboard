@@ -1,0 +1,22 @@
+.body{
+    margin: 0px;
+}
+
+.logo{
+    margin-left: 3%;
+    margin-top: 1%;
+    width: 10%;
+}
+
+.total_btn{
+    position: absolute;
+    top : 90vh;
+    height: 6vh;
+    left: 82vw;
+    color:white;
+    text-decoration-line: none;
+}
+
+.total_btn:hover{
+    font-size: larger;
+}

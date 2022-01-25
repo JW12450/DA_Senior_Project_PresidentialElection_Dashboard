@@ -5,7 +5,7 @@ function Can_Button(props){
     const can_id = Number(props.can_id);
 
     const CanName =["이재명","윤석열","안철수"]
-    const CanUrl =["./lee","./yoon","./ahn"]
+    const CanUrl =["../lee","../yoon","../ahn"]
 
     const [Can,setCan] = useState({
         name : CanName[can_id],

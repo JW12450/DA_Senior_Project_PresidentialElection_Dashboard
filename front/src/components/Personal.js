@@ -3,6 +3,7 @@ import Lee from "../imgs/lee.png";
 import Ahn from "../imgs/an.png";
 import Yoon from "../imgs/yoon.png";
 import {Link} from 'react-router-dom';
+import "../css/Personal.css";
 
 function Personal(props){
     const candidate_id = Number(props.can_id);
@@ -23,16 +24,16 @@ function Personal(props){
         btlnk : button_link[candidate_id]
     });
 
+    const can_container = "container"+ candidate_id;
+
     return (
         <div>
-            <div style={{border:"solid",float:"left", width:"20%", marginLeft:"10%", borderRadius:"25px"}}>
-                <h2>{Inputs.party}</h2>
-                <img src={Inputs.img}/>
-                <h3>{Inputs.name}</h3>
-                <p>{Inputs.promise1}<br/>{Inputs.promise2}<br/>{Inputs.promise3}</p>
-                <Link to={Inputs.btlnk}>
-                <button> ▶ 자세히 보러가기</button>
-                </Link>
+            <div className={can_container}>
+                <h2 className="candidate_party">{Inputs.party}</h2>
+                <img className='candidate_img' src={Inputs.img}/>
+                <h3  className='candidate_name'>{Inputs.name}</h3>
+                <p  className='candidate_promise'>{Inputs.promise1}<br/>{Inputs.promise2}<br/>{Inputs.promise3}</p>
+                <Link to={Inputs.btlnk} className='candidate_btn'> ▶ 자세히 보러가기 </Link>
             </div>
         </div>
     );
