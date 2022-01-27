@@ -31,7 +31,7 @@ import ahn from '../promise/AnhCategoryPromise';
           } 
           return(
             <div>
-                <div className="Promise"> <p className="Container">{selected_topic.desc}</p></div>
+                <div className="Promise"> <p className={props.can_name+"Category"+contents[i].id}>{selected_topic.desc}</p></div>
             </div>
             );
         }
