@@ -1,0 +1,70 @@
+.canbutton{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 15px;
+    margin-right: 10vw;
+    font-size: 2.4vh;
+    background: linear-gradient(324.79deg, rgba(230, 30, 43, 0.9) 8.75%, rgba(202, 83, 91, 0.4) 89.21%);
+    border: none;
+    color : white;
+    font-weight: bold;
+}
+
+.canbutton0{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 15px;
+    margin-left : 7vw;
+    margin-right: 10vw;
+    font-size: 2.4vh;
+    background: linear-gradient(138.27deg, rgba(0, 128, 226, 0.6) 7.2%, rgba(0, 78, 161, 0.9) 90.66%);
+    border: none;
+    color : white;
+    font-weight: bold;
+    margin-bottom: 4vh;
+}
+
+
+.canbutton0:active {
+    box-shadow: 0 5px rgba(255, 255, 255, 0.204);
+    transform: translateY(4px);
+  }
+
+
+.canbutton1{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 15px;
+    margin-right: 10vw;
+    font-size: 2.4vh;
+    background: linear-gradient(324.79deg, rgba(230, 30, 43, 0.9) 8.75%, rgba(202, 83, 91, 0.4) 89.21%);
+    border: none;
+    color : white;
+    font-weight: bold;
+    margin-bottom: 4vh;
+
+}
+.canbutton1:active {
+    box-shadow: 0 5px rgba(255, 255, 255, 0.204);
+    transform: translateY(4px);
+  }
+
+
+
+.canbutton2{
+    width: 20vw;
+    height: 7vh;
+    border-radius: 15px;
+    font-size: 2.4vh;
+    background: linear-gradient(315.05deg, #29AD36 7.04%, rgba(83, 153, 111, 0.72) 91.53%);
+    border: none;
+    color : white;
+    font-weight: bold;
+    margin-bottom: 4vh;
+
+}
+
+.canbutton2:active {
+    box-shadow: 0 5px rgba(255, 255, 255, 0.204);
+    transform: translateY(4px);
+  }

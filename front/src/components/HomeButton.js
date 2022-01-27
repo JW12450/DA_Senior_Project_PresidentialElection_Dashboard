@@ -1,11 +1,10 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import "../css/HomeButton.css";
 
 function HomeButton(){
     return (
-        <Link to="../">
-        <button> ◀ 홈으로</button>
-        </Link>
+        <Link className='Homebtn' to="../"> ◀ 홈으로</Link>
     );
 }
 

@@ -1,0 +1,9 @@
+.Homebtn{
+    color:white;
+    text-decoration: none;
+    left: 2vw;
+}
+
+.Homebtn:hover{
+    font-size: larger;
+}
