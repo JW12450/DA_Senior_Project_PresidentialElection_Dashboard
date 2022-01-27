@@ -1,6 +1,7 @@
 import React from 'react';
 import HomeButton from "./HomeButton";
 import Pye from "./Pye";
+import Promise from './Promise';
 //import A from "../pyechart/a.html";
 
 function Lee(){
@@ -10,6 +11,7 @@ function Lee(){
   
         <div>
             <HomeButton> </HomeButton>
+            <Promise>   </Promise>
             <Pye> </Pye>
             이재명페이지입니다
         </div>
