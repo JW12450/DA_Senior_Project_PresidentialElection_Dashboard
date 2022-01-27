@@ -1,0 +1,28 @@
+.Category{
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 2px white solid;
+    position: relative;
+    float: left;
+    margin-right: 2vw;
+}
+
+.Promise{
+    color: white;
+    position: relative;
+    clear: both;
+    margin-top: 4vh;
+    top: 2vh;
+}
+
+.Container{
+    width: 50%;
+    height: 40vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    text-align: center;
+}
+
+.categorytitle{
+    color: white;
+}

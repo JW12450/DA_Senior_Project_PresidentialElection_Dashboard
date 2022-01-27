@@ -20,3 +20,49 @@
 .total_btn:hover{
     font-size: larger;
 }
+
+.Cannav{
+    width: 100%;
+    height: 20vh;
+    background: #4586B7BF;
+}
+
+.Cannav0{
+    width: 100%;
+    height: 20vh;
+    background: #4586B7BF;
+}
+
+.Cannav1{
+    width: 100%;
+    height: 20vh;
+    background: #E61E2B66;
+
+}
+
+
+.Cannav2{
+    width: 100%;
+    height: 20vh;
+    background:#53996FB8;
+    ;
+}
+
+
+
+.Word{
+    position: relative;
+    float:right;
+    margin-right: 5vw;
+    color: white;
+    margin-top: 3vh;
+    margin-right: 2%;
+
+
+}
+.face{
+    position: relative;
+    height: 100%;
+    float: right;
+    margin-right: 5vw;
+}

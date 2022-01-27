@@ -2,6 +2,8 @@ import React from 'react';
 import HomeButton from "./HomeButton";
 import Pye from "./Pye";
 import Promise from './Promise';
+import CanWordCloud from './CanWordCloud';
+import CanHome from './CanHome';
 //import A from "../pyechart/a.html";
 
 function Lee(){
@@ -10,10 +12,11 @@ function Lee(){
     return (
   
         <div>
-            <HomeButton> </HomeButton>
+            <CanHome  id="0"></CanHome>
             <Promise>   </Promise>
             <Pye> </Pye>
-            이재명페이지입니다
+            <Pye> </Pye>
+            <CanWordCloud id="0"></CanWordCloud>
         </div>
     );
 }

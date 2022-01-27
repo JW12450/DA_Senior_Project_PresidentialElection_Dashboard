@@ -28,14 +28,15 @@ import "../css/wordcloud.css";
               } 
               return(
                 <div>
-                    <img style={{marginLeft:"20vw", marginBottom:"7vh", width:"20vw"}}src={selected_topic.src}></img>
+                    <img style={{border:"2px white solid",
+                    marginTop:"5vh",padding:"40px", marginLeft:"20vw", marginBottom:"7vh", width:"20vw"}}src={selected_topic.src}></img>
                 </div>
                 );
             }
 
    
 
-function WordCloud(){
+function PartyWordCloud(){
     return(
         <div>
         <h1 style={{marginLeft:"20vw",color:"white"}}> 정치성향별 워드클라우드 보기</h1>
@@ -51,4 +52,4 @@ function WordCloud(){
     </div>);
 }
 
-export default WordCloud;
+export default PartyWordCloud;

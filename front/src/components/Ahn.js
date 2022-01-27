@@ -1,11 +1,20 @@
 import React from 'react';
 import HomeButton from "./HomeButton";
+import Pye from "./Pye";
+import Promise from './Promise';
+import CanWordCloud from './CanWordCloud';
+import CanHome from './CanHome';
 
 function Ahn(){
+
     return (
+  
         <div>
-            <HomeButton></HomeButton>
-            안철수 페이지입니다
+            <CanHome id="2"></CanHome>
+            <Promise>   </Promise>
+            <Pye> </Pye>
+            <Pye> </Pye>
+            <CanWordCloud id="2"></CanWordCloud>
         </div>
     );
 }

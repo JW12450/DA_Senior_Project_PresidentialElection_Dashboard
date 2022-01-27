@@ -1,11 +1,22 @@
 import React from 'react';
 import HomeButton from "./HomeButton";
+import Pye from "./Pye";
+import Promise from './Promise';
+import CanWordCloud from './CanWordCloud';
+import CanHome from './CanHome';
+//import A from "../pyechart/a.html";
 
 function Yoon(){
+ //   const MyHtml = `${A}`;
+ //   const mySafeHTML = DOMPurify.sanitize(MyHtml);
     return (
+  
         <div>
-            <HomeButton></HomeButton>
-            윤석열 페이지 입니다
+            <CanHome id="1"></CanHome>
+            <Promise>   </Promise>
+            <Pye> </Pye>
+            <Pye> </Pye>
+            <CanWordCloud id="1"></CanWordCloud>
         </div>
     );
 }
