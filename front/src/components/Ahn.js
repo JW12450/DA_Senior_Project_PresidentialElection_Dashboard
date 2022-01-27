@@ -11,7 +11,7 @@ function Ahn(){
   
         <div>
             <CanHome id="2"></CanHome>
-            <Promise>   </Promise>
+            <Promise name='ahn'>   </Promise>
             <Pye> </Pye>
             <Pye> </Pye>
             <CanWordCloud id="2"></CanWordCloud>

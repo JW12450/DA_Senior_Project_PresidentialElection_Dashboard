@@ -12,8 +12,8 @@ function CanWordCloud(props){
 
     return(
         <div>
-            <h2 style={{color:"white"}}>{name} 대표 여론입니다</h2>
-            <img style={{width:"20vw"} }src={src}></img>
+            <h2 className="can_wc_title">▶ {name} 대표 키워드</h2>
+            <img className="can_wc_img" src={src}></img>
         </div>
     );
 }

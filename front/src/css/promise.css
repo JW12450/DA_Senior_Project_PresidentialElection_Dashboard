@@ -1,4 +1,14 @@
-.Category{
+.Category1{
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 2px white solid;
+    position: relative;
+    float: left;
+    margin-right: 2vw;
+    margin-left: 10vw;
+}
+
+.Category2{
     color: white;
     text-decoration-line: none;
     border-bottom: 2px white solid;
@@ -7,12 +17,68 @@
     margin-right: 2vw;
 }
 
+.Category3{
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 2px white solid;
+    position: relative;
+    float: left;
+    margin-right: 2vw;
+}
+
+
+.Category4{
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 2px white solid;
+    position: relative;
+    float: left;
+    margin-right: 2vw;
+}
+
+.Category5{
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 2px white solid;
+    position: relative;
+    float: left;
+    margin-right: 2vw;
+}
+
+.Category1:hover{
+    color: yellow;
+    border-bottom: 2px yellow solid;
+}
+
+.Category2:hover{
+    color: yellow;
+    border-bottom: 2px yellow solid;
+
+}
+.Category3:hover{
+    color: yellow;
+    border-bottom: 2px yellow solid;
+
+}
+.Category4:hover{
+    color: yellow;
+    border-bottom: 2px yellow solid;
+
+}
+.Category5:hover{
+    color: yellow;
+    border-bottom: 2px yellow solid;
+
+}
 .Promise{
     color: white;
     position: relative;
     clear: both;
     margin-top: 4vh;
-    top: 2vh;
+    margin-left: 10vw;
+    white-space:pre-wrap;
+    line-height: 3vh;
+
 }
 
 .Container{
@@ -20,9 +86,13 @@
     height: 40vh;
     background-color: rgba(154, 143, 123, 0.306);
     border: solid white 2px;
-    text-align: center;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
 }
 
 .categorytitle{
     color: white;
+    margin-left: 10vw;
+    margin-top: 5vh;
+
 }

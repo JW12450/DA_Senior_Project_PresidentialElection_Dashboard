@@ -1,5 +1,19 @@
 .pye{
     width: 70vw;
-    height: 80vh;
+    height: 60vh;
     border: none;
+
+}
+
+.pyecontainer{
+    width: 46vw;
+    height: 60vh;
+    border: none;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    position: inherit;
+    clear: both;
+    margin-bottom: 6vh;
+    background-color: rgba(255, 255, 255, 0.572);
+    
 }

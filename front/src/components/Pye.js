@@ -6,8 +6,8 @@ import "../css/pye.css"
 
 const Pye = (props) => {
   return (
-    <div style={{marginLeft:"10vw"}}>
-      <h2 style={{color:"white"}}>{props.title}</h2>
+    <div className='pyecontainer'>
+      <h2 style={{color:"black"}}>{props.title}</h2>
       <iframe className="pye" src={props.src}></iframe>
  
     </div>

@@ -1,15 +1,20 @@
 import React from "react";
 import {Routes, Route, Link, useParams} from 'react-router-dom';
 import "../css/promise.css";
+import lee from '../promise/LeeCategoryPromise';
+import yoon from '../promise/YoonCategoryPromise';
+import ahn from '../promise/AnhCategoryPromise';
 
-var contents = [
-    {id : "1", title: "국방/안보", desc: "국방"},
-    {id: "2", title: "경제/부동산", desc: "경제"},
-    {id: "3", title: "도덕성/논란", desc: "도덕성"},
-    {id : "4", title: "코로나/방역", desc:"코로나"},
-    {id: "5", title: "젠더이슈", desc:"젠더"}
-]
-    function Category(){
+
+    function Category(props){
+
+        if(props.can_name==="lee"){
+            var contents = lee;
+        } else if(props.can_name === 'yoon'){
+            var contents =yoon;
+        } else {var contents = ahn;}
+    
+
         var parmas = useParams();
         var topic_id = parmas.id;
         var selected_topic={
@@ -33,10 +38,16 @@ var contents = [
 
 
 
-function Promise(){
+function Promise(props){
+    if(props.name==="lee"){
+        var contents = lee;
+    } else if(props.name === 'yoon'){
+        var contents =yoon;
+    } else {var contents = ahn;}
+
     var lis =[];
     for(var i=0; i<contents.length;i++){
-      lis.push(<p key={contents[i].id}><Link className="Category" to={contents[i].id}>{contents[i].title}</Link></p>)
+      lis.push(<p key={contents[i].id}><Link className={"Category"+contents[i].id} to={contents[i].id}>{contents[i].title}</Link></p>)
     };
 
     return(
@@ -45,7 +56,7 @@ function Promise(){
             {lis}
     
         <Routes>
-            <Route path=":id" element={<Category/>}> </Route>
+            <Route path=":id" element={<Category can_name={props.name} />}> </Route>
         </Routes>
     </div>);
 }

@@ -1,9 +1,12 @@
 .Homebtn{
     color:white;
     text-decoration: none;
+    position: absolute;
+    top:2vh;
     left: 2vw;
+    font-size: 2.3vh;
 }
 
 .Homebtn:hover{
-    font-size: larger;
+    font-size: 2.5vh;
 }

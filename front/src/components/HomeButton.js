@@ -4,7 +4,7 @@ import "../css/HomeButton.css";
 
 function HomeButton(){
     return (
-        <Link className='Homebtn' to="../"> ◀ 홈으로</Link>
+        <Link className='Homebtn' to="../"> ◀ 이전으로</Link>
     );
 }
 

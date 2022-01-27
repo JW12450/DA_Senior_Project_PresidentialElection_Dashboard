@@ -27,9 +27,10 @@ import "../css/wordcloud.css";
                 }
               } 
               return(
-                <div>
-                    <img style={{border:"2px white solid",
-                    marginTop:"5vh",padding:"40px", marginLeft:"20vw", marginBottom:"7vh", width:"20vw"}}src={selected_topic.src}></img>
+                <div  className='party_wc_container'>
+                    <p> 
+                    <img className="party_wc_img" src={selected_topic.src}></img>
+                    </p>
                 </div>
                 );
             }
@@ -37,13 +38,18 @@ import "../css/wordcloud.css";
    
 
 function PartyWordCloud(){
+
+    var lis =[];
+    for(var i=0; i<contents.length;i++){
+      lis.push(<p key={contents[i].id}><Link className={"Party"+contents[i].id} to={contents[i].id}>{contents[i].title}</Link></p>)
+    };
+
+
     return(
         <div>
-        <h1 style={{marginLeft:"20vw",color:"white"}}> 정치성향별 워드클라우드 보기</h1>
+        <h2 className='party_wc_title'> ▶ 정치성향별 관심 키워드 보기</h2>
         <div>
-        <p key={contents[0].id}><Link to={contents[0].id} className='party'>{contents[0].title}</Link></p>
-        <p key={contents[1].id}><Link to={contents[1].id} className='party'>{contents[1].title}</Link></p>
-        <p key={contents[2].id}><Link to={contents[2].id} className='party'>{contents[2].title}</Link></p>
+        {lis}
         </div>
 
         <Routes>

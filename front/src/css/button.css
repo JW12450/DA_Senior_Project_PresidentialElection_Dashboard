@@ -14,14 +14,16 @@
     width: 20vw;
     height: 7vh;
     border-radius: 15px;
-    margin-left : 7vw;
-    margin-right: 10vw;
     font-size: 2.4vh;
     background: linear-gradient(138.27deg, rgba(0, 128, 226, 0.6) 7.2%, rgba(0, 78, 161, 0.9) 90.66%);
     border: none;
     color : white;
     font-weight: bold;
+    margin-left: 11.5vw;
+    margin-right: 4vw;
     margin-bottom: 4vh;
+    margin-top: 4vh;
+
 }
 
 
@@ -42,6 +44,9 @@
     color : white;
     font-weight: bold;
     margin-bottom: 4vh;
+    margin-right: 4vw;
+    margin-top: 4vh;
+
 
 }
 .canbutton1:active {
@@ -61,6 +66,9 @@
     color : white;
     font-weight: bold;
     margin-bottom: 4vh;
+    margin-top: 4vh;
+
+
 
 }
 

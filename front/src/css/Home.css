@@ -49,16 +49,15 @@
 }
 
 
-
 .Word{
     position: relative;
     float:right;
     margin-right: 5vw;
     color: white;
-    margin-top: 3vh;
+    margin-top: 7vh;
     margin-right: 2%;
-
-
+    text-align: right;
+    line-height: 3.4vh;
 }
 .face{
     position: relative;

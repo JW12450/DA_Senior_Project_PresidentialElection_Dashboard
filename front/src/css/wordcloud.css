@@ -7,3 +7,76 @@
     margin-left: 20vw;
     font-size: 2.2vw;
 }
+
+.can_wc_title{
+    margin-left: 10vw;
+    color: white;
+}
+
+.can_wc_img{
+    margin-left: 10vw;
+    margin-bottom: 10vh;
+    width: 20%;
+}
+
+.party_wc_title{
+    margin-left: 10vw;
+    color: white;
+}
+
+.Party1{
+    color:white;
+    text-decoration-line: none;
+    border-bottom: solid 2px white;
+    margin-left: 11.7vw;
+    margin-right: 2vw;
+    position: relative;
+    float: left;
+    font-size: large;
+}
+.Party2{
+    color:white;
+    text-decoration-line: none;
+    border-bottom: solid 2px white;
+    margin-right: 2vw;
+    position: relative;
+    float: left;
+    font-size: large;
+}
+.Party3{
+    color:white;
+    text-decoration-line: none;
+    border-bottom: solid 2px white;
+    margin-right: 2vw;
+    position: relative;
+    float: left;
+    font-size: large;
+
+
+}
+
+.Party1:hover{
+    color: yellow;
+    border-bottom: solid 2px yellow;
+}
+
+.Party2:hover{
+    color: yellow;
+    border-bottom: solid 2px yellow;
+}
+.Party3:hover{
+    color: yellow;
+    border-bottom: solid 2px yellow;
+}
+
+.party_wc_container{
+    position: relative;
+    clear : both;
+    margin-left: 10vw;
+}
+
+.party_wc_img{
+    width: 24%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

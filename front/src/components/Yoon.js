@@ -13,7 +13,7 @@ function Yoon(){
   
         <div>
             <CanHome id="1"></CanHome>
-            <Promise>   </Promise>
+            <Promise name="yoon">   </Promise>
             <Pye> </Pye>
             <Pye> </Pye>
             <CanWordCloud id="1"></CanWordCloud>
