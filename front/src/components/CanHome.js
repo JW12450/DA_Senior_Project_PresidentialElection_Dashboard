@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import HomeButton from "./HomeButton";
 import "../css/Home.css";
+import "../font/font.css";
 import lee from "../imgs/lee.png";
 import ahn from "../imgs/an.png";
 import yoon from "../imgs/yoon.png";
@@ -25,7 +26,9 @@ function CanHome(props){
         <div className={CN}>
            <HomeButton></HomeButton>
            <img className="face" src={can.src}></img>
-           <div className="Word"> {can.Party} <br></br> {can.Name} <br></br> {can.Slogan} </div>
+           <div className="Word"> <p style={{fontFamily:"KOTRA_BOLD-Bold"}} className="cannavparty">{can.Party}</p>  
+           <p className="cannavname" style={{fontFamily:"paybooc-Bold"}}>{can.Name}</p>  
+           <p className="cannavslogan" style={{fontFamily:"Chosunilbo_myungjo"}}>{can.Slogan}</p> </div>
         </div>
     );
 }

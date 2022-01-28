@@ -1,6 +1,16 @@
+
+
+.pyetitle{
+    color: black;
+    font-size: 1.2vw;
+    position: inherit;
+    padding-top: 1.4vh;
+    padding-left: 0.3vw;
+}
+
 .pye{
-    width: 40vw;
-    height: 30vh;
+    width: 50vw;
+    height: 60vh;
     border: none;
 
 }
@@ -14,14 +24,7 @@
     position: inherit;
     clear: both;
     margin-bottom: 6vh;
-    background-color: rgba(255, 255, 255, 0.572);
+    background-color: rgba(211, 211, 211, 0.64);
     
 }
 
-.pyetitle{
-    color: black;
-    font-size: 1.2vw;
-    position: inherit;
-    padding-top: 1.4vh;
-    padding-left: 1vw;
-}

@@ -5,7 +5,7 @@ import "../font/font.css";
 
 function HomeButton(){
     return (
-        <Link className='Homebtn' to="../" style={{fontFamily:"EliceDigitalBaeum_Regular"}}> ◀ 이전으로</Link>
+        <Link className='Homebtn' to="../" style={{fontFamily:"paybooc-Bold"}}> ◀ 이전으로</Link>
     );
 }
 

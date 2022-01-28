@@ -55,7 +55,6 @@
     float:right;
     margin-right: 5vw;
     color: white;
-    margin-top: 7vh;
     margin-right: 2%;
     text-align: right;
     line-height: 3.4vh;
@@ -65,4 +64,21 @@
     height: 100%;
     float: right;
     margin-right: 5vw;
+}
+.cannavparty{
+    font-size: 1.2vw;
+    margin-bottom: 0px;
+    padding-top: 3vh;
+}
+
+.cannavname{
+    font-size: 1vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    letter-spacing: 0.1vw;
+}
+
+.cannavslogan{
+    font-size: 1vw;
+    margin-top: 0px;
 }

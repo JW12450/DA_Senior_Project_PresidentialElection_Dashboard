@@ -13,9 +13,10 @@ function Yoon(){
   
         <div>
             <CanHome id="1"></CanHome>
-            <Promise name="yoon">   </Promise>
-            <Pye> </Pye>
-            <Pye> </Pye>
+            <Promise name="yoon">  </Promise>
+            <Pye title="> 후보 전체 호감도" src="http://ec2-15-164-49-201.ap-northeast-2.compute.amazonaws.com:8080/yoon_good/"> </Pye>
+            <Pye title="> 나이별 관심 분야" src="http://ec2-15-164-49-201.ap-northeast-2.compute.amazonaws.com:8080/age_yoon/"> </Pye>
+            <Pye title="> 성별 관심 분야" src="http://ec2-15-164-49-201.ap-northeast-2.compute.amazonaws.com:8080/sex_yoon/"> </Pye>
             <CanWordCloud id="1"></CanWordCloud>
         </div>
     );

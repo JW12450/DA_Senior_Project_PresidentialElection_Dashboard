@@ -4,6 +4,7 @@ import "../css/pye.css";
 import "../font/font.css";
 
 const Pye = (props) => {
+  
   return (
     <div className='pyecontainer'>
       <h2 className="pyetitle" style={{fontFamily:"Cafe24Oneprettynight"}}>{props.title}</h2>
