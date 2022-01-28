@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useState} from 'react';
 import progress from "../wordcloud/progress_wc.png" ;
 import conservative from "../wordcloud/conserve_wc.png" ;
 import moderate from "../wordcloud/moderate_wc.png" ;
@@ -12,12 +12,14 @@ import "../css/wordcloud.css";
         {id: "2", title: "보수", src:conservative},
         {id: "3", title: "중도", src:moderate}]
 
+
         function WC(){
             var parmas = useParams();
             var topic_id = parmas.id;
             var selected_topic={
                 title:"올바른 경로가 아닙니다",
-                src : null
+                src : null,
+                color: "white"
             }
 
             for(var i=0; i<contents.length; i++){
@@ -38,19 +40,52 @@ import "../css/wordcloud.css";
 
    
 
-function PartyWordCloud(){
+function PartyWordCloud(){    
 
-    var lis =[];
-    for(var i=0; i<contents.length;i++){
-      lis.push(<p key={contents[i].id}><Link className={"Party"+contents[i].id} to={contents[i].id} style={{fontFamily:"Chosunilbo_myungjo"}}>{contents[i].title}</Link></p>)
-    };
+    const [TextColor, setTextColor] = useState({
+        color1 : "white",
+        color2 : "white",
+        color3 : "white"
+    })
+
+    function ColorChange1(){
+        setTextColor({
+            color1 : "yellow",
+            color2 : "white",
+            color3 : "white"
+        })
+    }
+
+    
+    function ColorChange2(){
+        setTextColor({
+            color1 : "white",
+            color2 : "yellow",
+            color3 : "white"
+        })
+        
+    }
+
+    
+    function ColorChange3(){
+        setTextColor({
+            color1 : "white",
+            color2 : "white",
+            color3 : "yellow"
+        })
+    }
+
+
 
 
     return(
         <div>
         <h2 className='party_wc_title' style={{fontFamily:"Cafe24Oneprettynight"}}> > 정치성향별 관심 키워드 보기</h2>
         <div>
-        {lis}
+        <p key={contents[0].id}><Link className={"Party"+contents[0].id} to={contents[0].id} onClick={ColorChange1} style={{fontFamily:"Chosunilbo_myungjo", color:TextColor.color1}}> {contents[0].title}</Link></p>        
+        <p key={contents[1].id}><Link className={"Party"+contents[1].id} to={contents[1].id} onClick={ColorChange2}style={{fontFamily:"Chosunilbo_myungjo", color:TextColor.color2}}> {contents[1].title}</Link></p>        
+        <p key={contents[2].id}><Link className={"Party"+contents[2].id} to={contents[2].id} onClick={ColorChange3} style={{fontFamily:"Chosunilbo_myungjo", color:TextColor.color3}}> {contents[2].title}</Link></p>        
+
         </div>
 
         <Routes>

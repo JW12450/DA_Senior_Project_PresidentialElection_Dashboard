@@ -1,75 +1,40 @@
 .Category1{
-    color: white;
-    text-decoration-line: none;
-    border-bottom: 2px white solid;
     position: relative;
     float: left;
     margin-right: 2vw;
     margin-left: 10vw;
+    text-underline-position: under;
 }
 
 .Category2{
-    color: white;
-    text-decoration-line: none;
-    border-bottom: 2px white solid;
     position: relative;
     float: left;
     margin-right: 2vw;
+    text-underline-position: under;
 }
 
 .Category3{
-    color: white;
-    text-decoration-line: none;
-    border-bottom: 2px white solid;
     position: relative;
     float: left;
     margin-right: 2vw;
+    text-underline-position: under;
 }
 
 
 .Category4{
-    color: white;
-    text-decoration-line: none;
-    border-bottom: 2px white solid;
     position: relative;
     float: left;
     margin-right: 2vw;
+    text-underline-position: under;
 }
 
 .Category5{
-    color: white;
-    text-decoration-line: none;
-    border-bottom: 2px white solid;
     position: relative;
     float: left;
     margin-right: 2vw;
+    text-underline-position: under;
 }
 
-.Category1:hover{
-    color: yellow;
-    border-bottom: 2px yellow solid;
-}
-
-.Category2:hover{
-    color: yellow;
-    border-bottom: 2px yellow solid;
-
-}
-.Category3:hover{
-    color: yellow;
-    border-bottom: 2px yellow solid;
-
-}
-.Category4:hover{
-    color: yellow;
-    border-bottom: 2px yellow solid;
-
-}
-.Category5:hover{
-    color: yellow;
-    border-bottom: 2px yellow solid;
-
-}
 .Promise{
     color: white;
     position: relative;

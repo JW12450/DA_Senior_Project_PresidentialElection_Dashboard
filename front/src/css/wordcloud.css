@@ -9,6 +9,7 @@
 }
 
 .can_wc_title{
+    padding-top: 2vh;
     margin-left: 10vw;
     color: white;
     font-size: 1.2vw;
@@ -16,7 +17,7 @@
 
 .can_wc_img{
     margin-left: 10vw;
-    margin-bottom: 10vh;
+    margin-bottom: 4vh;
     width: 20%;
 }
 
@@ -27,52 +28,34 @@
 }
 
 .Party1{
-    color:white;
-    text-decoration-line: none;
-    border-bottom: solid 2px white;
     padding-bottom: 0.3vh;
     margin-left: 11.7vw;
     margin-right: 2vw;
     position: relative;
     float: left;
     font-size: 1vw;
+    text-underline-position: under;
+
 }
 .Party2{
-    color:white;
-    text-decoration-line: none;
-    border-bottom: solid 2px white;
     margin-right: 2vw;
     position: relative;
     padding-bottom: 0.3vh;
     float: left;
     font-size: 1vw;
+    text-underline-position: under;
+
 }
+
 .Party3{
-    color:white;
-    text-decoration-line: none;
-    padding-bottom: 0.3vh;
-    border-bottom: solid 2px white;
+     padding-bottom: 0.3vh;
     margin-right: 2vw;
     position: relative;
     float: left;
     font-size: 1vw;
-
-
+    text-underline-position: under;
 }
 
-.Party1:hover{
-    color: yellow;
-    border-bottom: solid 2px yellow;
-}
-
-.Party2:hover{
-    color: yellow;
-    border-bottom: solid 2px yellow;
-}
-.Party3:hover{
-    color: yellow;
-    border-bottom: solid 2px yellow;
-}
 
 .party_wc_container{
     position: relative;
@@ -84,4 +67,8 @@
     width: 24%;
     margin-top: 5vh;
     margin-bottom: 5vh;
+}
+
+.party_wc_title{
+    padding-top: 2vh;
 }
