@@ -12,7 +12,7 @@ function Home(){
             <Personal can_id="1"></Personal>
             <Personal can_id="2"></Personal>
             <div>
-            <Link to="./total" className='total_btn'> ▶ 전체 여론 보러가기 </Link>
+            <Link to="./total" className='total_btn' style={{fontFamily:"GmarketSansLight"}}> ▶ 전체 여론 보러가기 </Link>
             </div>
         </div>
     );

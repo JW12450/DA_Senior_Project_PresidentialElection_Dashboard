@@ -15,10 +15,11 @@
     left: 82vw;
     color:white;
     text-decoration-line: none;
+    font-size: 1vw;
 }
 
 .total_btn:hover{
-    font-size: larger;
+    font-size: 1.1vw;
 }
 
 .Cannav{

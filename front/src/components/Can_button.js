@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import "../css/button.css";
+import "../font/font.css";
 
 function Can_Button(props){
     const can_id = Number(props.can_id);
@@ -18,7 +19,7 @@ function Can_Button(props){
     return (
 
         <Link to={Can.url}>
-        <button className={can_btn} type='button'> {Can.name}후보 보러가기</button>
+        <button className={can_btn} type='button' style={{fontFamily:"Chosunilbo_myungjo"}}> {Can.name}후보 보러가기</button>
         </Link>
     );
 }

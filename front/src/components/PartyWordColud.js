@@ -3,6 +3,7 @@ import progress from "../wordcloud/progress_wc.png" ;
 import conservative from "../wordcloud/conserve_wc.png" ;
 import moderate from "../wordcloud/moderate_wc.png" ;
 import {Routes, Route, Link, useParams} from 'react-router-dom';
+import "../font/font.css";
 import "../css/wordcloud.css";
 
 
@@ -41,13 +42,13 @@ function PartyWordCloud(){
 
     var lis =[];
     for(var i=0; i<contents.length;i++){
-      lis.push(<p key={contents[i].id}><Link className={"Party"+contents[i].id} to={contents[i].id}>{contents[i].title}</Link></p>)
+      lis.push(<p key={contents[i].id}><Link className={"Party"+contents[i].id} to={contents[i].id} style={{fontFamily:"Chosunilbo_myungjo"}}>{contents[i].title}</Link></p>)
     };
 
 
     return(
         <div>
-        <h2 className='party_wc_title'> ▶ 정치성향별 관심 키워드 보기</h2>
+        <h2 className='party_wc_title' style={{fontFamily:"Cafe24Oneprettynight"}}> > 정치성향별 관심 키워드 보기</h2>
         <div>
         {lis}
         </div>

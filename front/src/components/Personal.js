@@ -4,6 +4,7 @@ import Ahn from "../imgs/an.png";
 import Yoon from "../imgs/yoon.png";
 import {Link} from 'react-router-dom';
 import "../css/Personal.css";
+import "../font/font.css";
 
 function Personal(props){
     const candidate_id = Number(props.can_id);
@@ -29,11 +30,11 @@ function Personal(props){
     return (
         <div>
             <div className={can_container}>
-                <h2 className="candidate_party">{Inputs.party}</h2>
+                <h2 className={"candidate_party"+candidate_id}  style={{fontFamily : 'GmarketSansLight'}}>{Inputs.party}</h2>
                 <img className='candidate_img' src={Inputs.img}/>
-                <h3  className='candidate_name'>{Inputs.name}</h3>
-                <p  className='candidate_promise'>{Inputs.promise1}<br/>{Inputs.promise2}<br/>{Inputs.promise3}</p>
-                <Link to={Inputs.btlnk} className='candidate_btn'> ▶ 자세히 보러가기 </Link>
+                <h3  className='candidate_name'  style={{fontFamily : 'GowunBatang-Regular'}}>{Inputs.name}</h3>
+                <p  className='candidate_promise' style={{fontFamily:"GangwonEdu_OTFBoldA"}}>{Inputs.promise1}<br/>{Inputs.promise2}<br/>{Inputs.promise3}</p>
+                <Link to={Inputs.btlnk} className='candidate_btn'  style={{fontFamily:"EliceDigitalBaeum_Regular"}}> ▶ {Inputs.name}  후보 보러가기 </Link>
             </div>
         </div>
     );

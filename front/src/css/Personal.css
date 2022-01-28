@@ -1,5 +1,5 @@
 .container0{
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     position: relative;
     float: left;
     width: 22vw;
@@ -12,7 +12,7 @@
 }
 
 .container1{
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     position: relative;
     float: left;
     width: 22vw;
@@ -24,7 +24,7 @@
     border-radius: 25px;
 }
 .container2{
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     position: relative;
     float: left;
     width: 22vw;
@@ -43,34 +43,68 @@
 
 }
 
-.candidate_party{
+.candidate_party0{
+    width: 100%;
+    text-align: center;
     position: inherit;
     color: white;
-    margin-left: 6%;
     margin-bottom: 0%;
-
+    font-size: 1.3vw; 
+    border-bottom: solid 2px rgba(255, 255, 255, 0.571);
+    padding-bottom: 0.7vh;
 }
 
+
+
+.candidate_party1{
+    width: 100%;
+    text-align: center;
+    position: inherit;
+    color: white;
+    margin-bottom: 0%;
+    font-size: 1.3vw; 
+    border-bottom: solid 2px rgba(255, 255, 255, 0.571);
+    padding-bottom: 0.7vh;
+}
+
+
+.candidate_party2{
+    width: 100%;
+    text-align: center;
+    position: inherit;
+    color: white;
+    margin-bottom: 0%;
+    font-size: 1.3vw; 
+    border-bottom: solid 2px rgba(255, 255, 255, 0.571);
+    padding-bottom: 0.7vh;
+
+}
 .candidate_name{
     position: inherit;
     font-size: 1.5vw;
     color: white;
-    margin-left: 40%;
-    margin-top:2%;
+    margin-left: 37%;
+    margin-top: 1.2%;
+    letter-spacing: 0.6vw;
+    margin-bottom: 0;
 }
 
 .candidate_promise{
     position: inherit;
     color: white;
     margin-left: 25%;
+    margin-top: 1.5%;
+    font-size: 1.2vw;
 
 }
 
 .candidate_btn{
-    position: inherit;
-    margin-left: 25%;
+    position: absolute;
+    bottom: 4vh;
+    right: 5.2vw;
     color:white;
     text-decoration-line:none ;
+    font-size: 1.2vw;
 }
 
 .candidate_btn:hover{

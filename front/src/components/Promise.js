@@ -1,6 +1,7 @@
 import React from "react";
 import {Routes, Route, Link, useParams} from 'react-router-dom';
 import "../css/promise.css";
+import "../font/font.css";
 import lee from '../promise/LeeCategoryPromise';
 import yoon from '../promise/YoonCategoryPromise';
 import ahn from '../promise/AnhCategoryPromise';
@@ -52,7 +53,7 @@ function Promise(props){
 
     return(
         <div>
-            <h2 className="categorytitle"> ▶ 카테고리별 공약 알아보기</h2>
+            <h2 className="categorytitle" style={{fontFamily:"Cafe24Oneprettynight"}}> > 카테고리별 공약 알아보기</h2>
             {lis}
     
         <Routes>
