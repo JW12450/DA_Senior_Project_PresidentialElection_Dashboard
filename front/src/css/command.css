@@ -1,0 +1,51 @@
+.commandcontainer{
+    margin-left: 10vw;;
+    padding-top: 5vh;    
+}
+
+.commandtitle{
+    color:white;    
+    font-size: 1.4vw;
+}
+
+.commandbox{
+ width: 49vw;
+ height: 10vh;
+ text-align: top;
+ background-color: rgba(124, 121, 115, 0.429);
+ color:white;
+ border: none;
+ border-radius: 10px;
+ padding-top: 1vh;
+ padding-left: 1vw;
+}
+
+.resetbtn{
+    margin-top: 0.5vh;
+    height: 3vh;
+    font-size: 0.8vw;
+    border-radius: 5px;
+    position: relative;
+    left: 37.3vw;
+    background-color: rgba(124, 121, 115, 0.429);
+    border: none;
+    color: rgba(255, 255, 255, 0.756);
+}
+
+.enter_btn{
+    border-radius: 5px;
+    font-size: 0.8vw;
+    margin-left: 0.4vw;
+    position: relative;
+    left: 37.3vw;
+    background-color: rgba(124, 121, 115, 0.429);
+    border: none;
+    color: rgba(255, 255, 255, 0.756);
+    height: 3vh;
+
+}
+
+.answer{
+    color:white;
+    margin-left: 10vw;
+}
