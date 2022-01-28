@@ -92,7 +92,7 @@
 
 .leeCategory2{
     width: 52%;
-    height: 102vh;
+    height: 104vh;
     background-color: rgba(154, 143, 123, 0.306);
     border: solid white 2px;
     padding-top: 2vh;
@@ -120,6 +120,97 @@
 .leeCategory5{
     width: 52%;
     height: 50vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+
+.yoonCategory1{
+    width: 52%;
+    height: 50vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.yoonCategory2{
+    width: 52%;
+    height: 80vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.yoonCategory3{
+    width: 52%;
+    height: 39vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.yoonCategory4{
+    width: 52%;
+    height: 44vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.yoonCategory5{
+    width: 52%;
+    height: 25vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.ahnCategory1{
+    width: 52%;
+    height: 51vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.ahnCategory2{
+    width: 52%;
+    height: 80vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.ahnCategory3{
+    width: 52%;
+    height: 36vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.ahnCategory4{
+    width: 52%;
+    height: 38vh;
+    background-color: rgba(154, 143, 123, 0.306);
+    border: solid white 2px;
+    padding-top: 2vh;
+    padding-left: 1.5vw;
+}
+
+.ahnCategory5{
+    width: 52%;
+    height: 37vh;
     background-color: rgba(154, 143, 123, 0.306);
     border: solid white 2px;
     padding-top: 2vh;
