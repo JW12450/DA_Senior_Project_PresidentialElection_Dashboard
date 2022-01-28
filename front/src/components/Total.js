@@ -15,7 +15,6 @@ function Total(){
             <PartyWordCloud></PartyWordCloud>
             <div style={{position:"relative",clear:"both"}}> 
             <Command> </Command>
-            <TypeResult></TypeResult>
             <CanButton can_id ="0"></CanButton>
             <CanButton  can_id ="1"></CanButton>
             <CanButton  can_id ="2"></CanButton>

@@ -2,23 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { Provider } from "react-redux";
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
-import result from "./reducers/result";
-import {createStore, applyMiddleware} from 'redux';
-import { composeWithDevTools } from "redux-devtools-extension";
-import ReduxThunk from "redux-thunk";
 
-
-var store = createStore(result, composeWithDevTools(applyMiddleware(ReduxThunk)));
 
 ReactDOM.render(
   <React.StrictMode >
     <BrowserRouter>
-    <Provider store={store}>
     <App/>
-    </Provider>
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

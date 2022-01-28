@@ -19,10 +19,10 @@
     border: none;
     color : white;
     font-weight: bold;
-    margin-left: 11.5vw;
+    margin-left: 10vw;
     margin-right: 4vw;
     margin-bottom: 4vh;
-    margin-top: 4vh;
+    margin-top: 6vh;
     letter-spacing: 0.1vw;
 
 }
@@ -46,7 +46,7 @@
     font-weight: bold;
     margin-bottom: 4vh;
     margin-right: 4vw;
-    margin-top: 4vh;
+    margin-top: 6vh;
     letter-spacing: 0.1vw;
 }
 .canbutton1:active {
@@ -66,7 +66,7 @@
     color : white;
     font-weight: bold;
     margin-bottom: 4vh;
-    margin-top: 4vh;
+    margin-top: 6vh;
     letter-spacing: 0.1vw;
 
 
