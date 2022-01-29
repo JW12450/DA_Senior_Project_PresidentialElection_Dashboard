@@ -31,7 +31,7 @@
       "react-app/jest"
     ]
   },
-  "proxy": "https://jsonplaceholder.typicode.com/todos",
+  "proxy": "https://52407797-85c0-49f5-b5ac-08d53268f097.mock.pstmn.io",
   "browserslist": {
     "production": [
       ">0.2%",
